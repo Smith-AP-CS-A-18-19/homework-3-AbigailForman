@@ -10,6 +10,7 @@ public class Homework3 {
 		value1 = v1;
 		value2 = v2;
 		value3 = v3;
+		Homework3.random();
 	}
 
 	/* Call the static grade method in Homework3, passing this object as the
@@ -17,12 +18,13 @@ public class Homework3 {
 	 * class (e.g. Math.random())
 	 */
 	public void grade() {
-
+		Homework3.grade(this);
 	}
 
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
 	public int sum() {
+		return sum;
 
 	}
 
@@ -30,6 +32,7 @@ public class Homework3 {
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
+		return average;
 
 	}
 
@@ -37,6 +40,7 @@ public class Homework3 {
 	 * value 1, value2, and value3
 	 */
 	 public int productSumDifference() {
+		 return productSumDifference;
 
 	 }
 
@@ -44,6 +48,7 @@ public class Homework3 {
 	  * value3
 	  */
 	  public int sumSquares() {
+			return sumSquares;
 
 	  }
 

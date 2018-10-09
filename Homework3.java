@@ -24,7 +24,8 @@ public class Homework3 {
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
 	public int sum() {
-		return sum;
+		v4 = v1 + v2 + v3;
+		return v4;
 
 	}
 
@@ -32,7 +33,9 @@ public class Homework3 {
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
-		return average;
+		v5 = v1+ v2 + v3;
+		v6 = v5 / 3;
+		return v6;
 
 	}
 
@@ -48,7 +51,8 @@ public class Homework3 {
 	  * value3
 	  */
 	  public int sumSquares() {
-			return sumSquares;
+			v7 = math.sqrt(v1) + math.sqrt(v2) + math.sqrt(v3);
+			return v7;
 
 	  }
 

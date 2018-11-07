@@ -7,9 +7,9 @@ public class Homework3 {
 	private int value1, value2, value3;
 
 	public Homework3(int v1, int v2, int v3) {
-		v1 = value1;
-		v2 = value2;
-		v3 = value3;
+		value1 = v1;
+		value2 = v2;
+		value3 = v3;
 
 
 	}
@@ -44,8 +44,10 @@ public class Homework3 {
 	 * value 1, value2, and value3
 	 */
 	 public int productSumDifference() {
-		int v7 = value1 - value2 - value3;
-		 return v7;
+		 int v8 = value1 * value2 * value3;
+		 int v7 = value1 + value2 + value3;
+		 int v9 = v8 - vs7;
+		 return v9;
 
 	 }
 

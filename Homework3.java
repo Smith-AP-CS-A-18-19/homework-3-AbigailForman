@@ -46,7 +46,7 @@ public class Homework3 {
 	 public int productSumDifference() {
 		 int v8 = value1 * value2 * value3;
 		 int v7 = value1 + value2 + value3;
-		 int v9 = v8 - vs7;
+		 int v9 = v8 - v7;
 		 return v9;
 
 	 }
